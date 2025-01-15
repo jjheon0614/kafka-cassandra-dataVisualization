@@ -1,3 +1,12 @@
+ # kafka-cassandra-dataVisualization
+
+This project involves deploying an end-to-end data pipeline using Docker with the following components:
+
+- Kafka: Data streaming
+- Cassandra: NoSQL database
+- Jupyter Lab: Data analysis and visualization
+
+## Steps
 
 1. Create docker networks
 
