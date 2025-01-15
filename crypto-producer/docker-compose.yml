@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  crypto:
+    container_name: crypto
+    build: .
+    environment:
+      KAFKA_BROKER_URL: broker:9092
+      TOPIC_NAME: crypto
+      SLEEP_TIME: 5
+
+networks:
+  default:
+    external:
+      name: kafka-network
