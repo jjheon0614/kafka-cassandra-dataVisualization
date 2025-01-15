@@ -6,6 +6,8 @@ This project involves deploying an end-to-end data pipeline using Docker with th
 - Cassandra: NoSQL database
 - Jupyter Lab: Data analysis and visualization
 
+It will stream weather, faker data, cryptocurrency with following steps. The demonstartion can be seen here: [text](https://youtu.be/Y3lhjkPVgRQ)
+
 ## Steps
 
 1. Create docker networks
